@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f8f9fa;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand {
+            font-size: 1.75rem;
+            font-weight: bold;
+            color: #ff6600;
+        }
+        .navbar-brand:hover {
+            color: #e05500;
+        }
+        .navbar-nav .nav-link {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #333;
+            margin: 0 10px;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ff6600;
+            transform: translateY(-2px);
+        }
+        .team-banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/banner_sin_tech.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+        .team-banner h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+        }
+        .team-card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .team-card:hover {
+            transform: translateY(-10px);
+        }
+        .team-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+        .team-card h5 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .team-card .social-links a {
+            margin: 0 10px;
+            color: #333;
+            transition: color 0.3s;
+        }
+        .team-card .social-links a:hover {
+            color: #ff6600;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer .footer-links a {
+            color: white;
+            margin: 0 15px;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+        footer .footer-links a:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="favicon.ico" alt="Brand Logo"> Sin Tech
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="test3.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="test4.html">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="team-banner" id="team">
+        <h1>Meet Our Team</h1>
+        <p>The talented individuals behind our success</p>
+    </div>
+
+    <section class="container my-5">
+        <h2 class="section-title">Our Team Members</h2>
+        <div class="row g-4">
+            <!-- Team Member Card -->
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="nahid.jpg" alt="Member Name">
+                    <h5>MD Mostafic Yellahy Nahid</h5>
+                    <p>Co founder of Sin Tech</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mostafic.nahid.373" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/mostafic-yellahy-nahid-0745671a1/" class="fab fa-linkedin"></a>
+                        <a href="mostafic2003@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="sobuj.jpg" alt="Member Name">
+                    <h5>Md Samir Hossain Sobuj</h5>
+                    <p>Co-Founder & Marketing Head</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/samir.sobuj.14?mibextid=LQQJ4d" class="fab fa-facebook"></a>
+                        <a href="https://bd.linkedin.com/in/md-samir-hossain-sobuj-29956215a" class="fab fa-linkedin"></a>
+                        <a href="samirsobuj6@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="Ifti.jpg" alt="Member Name">
+                    <h5>Iftikhar Rahman Golder</h5>
+                    <p>Co-Founder & Management Head</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/iftikhar.ifti.326767" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                        <a href="ifti2520@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="tonni.jpg" alt="Member Name">
+                    <h5>Tazina Akter Tanni</h5>
+                    <p>Human Resource</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/tohaba.tanni" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                        <a href="tohabatanni1111@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="eva.jpg" alt="Member Name">
+                    <h5>Monira Islam Eva</h5>
+                    <p>General Manager</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/eva.islam.75615?mibextid=ZbWKwL" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                        <a href="evaa70969@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="farham.jpg" alt="Member Name">
+                    <h5>Farhan Alam</h5>
+                    <p>Graphics Designer</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/farhan.niloy.507?mibextid=kFxxJD" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" class="fab fa-linkedin"></a>
+                        <a href="farhanniloy61@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="akash.jpg" alt="Member Name">
+                    <h5>Ashraful Haque Akash</h5>
+                    <p>Researcher</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100092040438332&mibextid=wwXIfr&rdid=EjBFDQQ4HwSrrDY0&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HkubQeneU%2F%3Fmibextid%3DwwXIfr" class="fab fa-facebook"></a>
+                        <a href="http://linkedin.com/in/ashraful-haque-akash-169454334" class="fab fa-linkedin"></a>
+                        <a href="ashraful.haque.akash.w@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="emon.jpg" alt="Member Name">
+                    <h5>Md Emon Hossain</h5>
+                    <p>Researcher</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1Ei6L7sYz4/?mibextid=wwXIfr" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/emon-hossain-89b846265" class="fab fa-linkedin"></a>
+                        <a href="emon06314@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="Enamul.jpg" alt="Member Name">
+                    <h5>Enamul Hakim Khan</h5>
+                    <p>Lead Developer</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mfahimrahman1014" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/md-fahim-khan-1a433b25a/" class="fab fa-linkedin"></a>
+                        <a href="v3mdfahimkhan@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="Ratul.jpg" alt="Member Name">
+                    <h5>Rifat Ahmmed Ratul</h5>
+                    <p>Quality Assurance</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1B4ezKiocP/?mibextid=wwXIfr" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/rifat-ahmmed-ratul-354229340/" class="fab fa-linkedin"></a>
+                        <a href="ratul77336@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="ashraful Islam.jpg" alt="Member Name">
+                    <h5>Ashraful Islam</h5>
+                    <p>Lead Designer & Quality Assurance</p>
+                    <div class="social-links">
+                        <a href="https://fackbook.com/as.ashraful.i059" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/ashraful-islam-b97b95265" class="fab fa-linkedin"></a>
+                        <a href="ashraful.i059@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="Mahbub.jpg" alt="Member Name">
+                    <h5>Md. Mahabul Islam</h5>
+                    <p>Coder</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mahbub.islam.1447342?mibextid=wwXIfr&mibextid=wwXIfr" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/mahbub-islam-b72602343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="fab fa-linkedin"></a>
+                        <a href="mahbubislam339@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="Tahrim.jpg" alt="Member Name">
+                    <h5>Tahrim Maria</h5>
+                    <p>Researcher & Designer</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/15Ret1K9fj/?mibextid=wwXIfr" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/tahrim-maria-csc22303?trk=contact-info" class="fab fa-linkedin"></a>
+                        <a href="tohabatanni1111@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="Mariea.jpg" alt="Member Name">
+                    <h5>Mariea</h5>
+                    <p>Designer</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mayemiyy?mibextid=ZbWKwL" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/mariea-mayen?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin"></a>
+                        <a href="marieamayen@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="sium.jpg" alt="Member Name">
+                    <h5>Shahed Ahmed Sium</h5>
+                    <p>Coder</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/shahedahmedsium" class="fab fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/shahed-ahmed-sium-7796b4277/" class="fab fa-linkedin"></a>
+                        <a href="shahedsium0000@gmail.com" class="fas fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Duplicate and Update the above card for each team member -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our Company. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
